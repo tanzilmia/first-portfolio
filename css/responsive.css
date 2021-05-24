@@ -1,0 +1,228 @@
+
+@media(max-width:992px){
+    .checkbtn{
+        display: block;
+    }
+   .menus ul{
+       width: 100%;
+       height: auto;
+       background: transparent;
+       top: 80px;
+       left: -100%;
+       position: absolute;
+       transition: all .5s;
+       overflow: hidden;
+      
+   }
+   .menus ul li{
+       text-align: center;
+       display: block;
+   }
+  
+   #check:checked ~ ul{
+       left: 0;
+   }
+
+
+   /* ===========heading items ============= */
+
+   .cd-intro *{
+    display: none;
+    
+}
+.header-section-f{
+    height: 60vh;
+}
+
+/* =================aobut section=============== */
+.img-and-name{
+    display: block;
+    width: 100%;
+}
+   .img-and-bio img{
+    width:80%;
+    margin-left: 18%;
+    height: auto; 
+    }
+    .biodata{
+        margin-left: 18%;
+        margin-top: 35px;
+    }
+
+    .about-texts-p{
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+
+    /* ====================services section========== */
+    .icons-clss i{
+        font-size: 25px;
+        border: 5px solid #0078FF;
+        height: 80px;
+        width: 80px;
+        padding-top: 25px;
+        border-radius: 50%;
+        color: #000;
+       }
+       .services-box:hover .icons-clss i{
+           color: #fff;
+           background: #0078FF;
+           border: 5px solid #CDE1F8;
+       }
+       .services-box h3{
+           line-height: 30px;
+           font-weight: 600;
+           text-transform: uppercase;
+           font-size: 15px;
+           text-align: center;
+           font-weight: bold;
+       }
+       
+       .services-box p{
+           text-align: justify;
+       }
+       /* ==========work full section========== */
+       .work-full{
+        background-image: url(../img/counters-bg.jpg);
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    /* =========contact section =============== */
+    .contact-bg{
+        background-color: #fff;
+        height: 60vh;
+        width: 80%;
+        padding: 20px;
+    }
+    .contact-full{
+        background-image: url(../img/counters-bg.jpg);
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover; 
+    }
+    .contact-btn {
+        border: 2px solid rgb(3, 41, 255);
+        display: inline-block;
+        padding: 5px 20px;
+        font-size: 17px;
+        margin-top: 10px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 50px;
+    }
+  }
+
+
+
+
+  /* ====================media query for 768px====================== */
+
+  @media(max-width:768px){
+
+    .header-section-f{
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover; 
+    }
+
+
+/* ==================about section========= */
+.img-and-bio img{
+    width:80%;
+    margin-left: 10%;
+    height: auto; 
+    }
+    .biodata{
+        margin-left: 10%;
+        margin-top: 35px;
+    }
+
+    .about-texts-p{
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+
+    .progress-skill{
+        padding-right: 50px;
+    }
+    .about-full{
+        padding:50px 0px 0px 50px;
+    }
+    .services-box{
+        margin-bottom: 30px;
+    }
+    .second-service{
+        margin-top: -40px !important;
+    }
+
+    /* =========work section========== */
+    .work-full{
+        background-image: url(../img/counters-bg.jpg);
+        width: 100%;
+        height: 130vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .count-box{
+        margin-bottom: 30px;
+        border: 2px solid rgb(248, 248, 248);
+        padding-top: 40px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .portfolio-box{
+        margin-bottom: 30px !important;
+    }
+
+    .blog-box{
+        margin-bottom: 30px;
+    }
+    .time-and-icons{
+        
+        
+    }
+    .contact-bg{
+        
+        margin-top: -380px;
+    }
+  .contact-full{
+      background-color: #fff;
+      background-image: none;
+      height: 100vh;
+      width: 100%;
+  }
+  .contact-btn {
+    border: 2px solid rgb(3, 41, 255);
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50px;
+}
+}
+
+ /* ====================media query for 600px====================== */
+@media(max-width:600px){
+    
+}
+  
+  
+  
